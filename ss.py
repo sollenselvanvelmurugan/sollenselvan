@@ -1,7 +1,6 @@
-num=int(input())
-if num>0:
-   print("Positive number")
-elif num==0:
-   print("Zero")
+input_num = int(input())
+if input_num % 2 == 0:
+    print(input_num, "is EVEN")
 else:
-   print("Negative number")
+    print(input_num, "is ODD")
+    
